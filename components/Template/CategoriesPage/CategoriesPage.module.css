@@ -1,0 +1,69 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+    margin-top: 6rem;
+}
+.container h2{
+    text-transform: capitalize;
+    border-bottom: 0.1rem solid #53c60b;
+    width: fit-content;
+    margin-bottom: 3rem;
+    font-size: 1.9rem;
+}
+
+.select select{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    box-shadow: rgba(92, 245, 115, 0.123) 0rem 0.3rem 1rem,
+                 rgba(17, 17, 26 , 0.06) 0rem 0.5rem 2rem;
+    margin-right: 0.7rem;
+    padding: 0.7rem;
+    color: #48ac0a;
+}
+.select button{
+    background-color: #53c60b;
+    text-transform: uppercase;
+    color: #fff;
+    height: 2rem;
+    padding: 0 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.select button:hover{
+    background-color: transparent;
+    color: #53c60b;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.cards img{
+    margin: auto;
+}
+@media (max-width:900px){
+    .container{
+        padding: 1.2rem;
+    }
+    .cards{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 0.7rem;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .select select{
+        width: 100%;
+        margin: 0 0 1.2rem;
+    }
+}

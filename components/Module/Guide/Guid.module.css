@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.container a{
+    box-shadow: rgba(92, 245, 115, 0.123) 0px 0.3rem 1rem,
+                rgba(17, 17, 26, 0.05) 0px 0.5rem 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .container a{
+        padding: 0.7rem 1.2rem;
+    }
+}

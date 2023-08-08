@@ -1,0 +1,35 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.subContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container h2{
+    text-transform: uppercase;
+    border-bottom: 0.3rem solid #53c60b;
+    width: fit-content;
+    margin: 3rem auto;
+    font-size: 1.9rem;
+}
+
+@media (max-width:900px){
+    .container{
+        padding: 1.2rem;
+    }
+    .subContainer{
+        justify-content: space-between;
+    }
+    .container h2{
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 0.7rem;
+    }
+}

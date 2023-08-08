@@ -1,0 +1,17 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+@media (max-width:900px){
+    .container{
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 0.7em;
+    }
+}

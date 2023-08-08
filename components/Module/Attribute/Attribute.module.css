@@ -1,0 +1,35 @@
+.container{
+    margin-top: 6rem;
+}
+
+.container h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #53c60b;
+    margin: 1.3rem 0;
+}
+
+.subContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.subContainer div{
+    width: 9rem;
+    text-align: center;
+    padding: 1.3rem 1.2rem 1.2rem;
+    margin-top: 1.2rem;
+    -webkit-box-shadow: 10px 10px 95px -7px rgba(83,198,11,1);
+    -moz-box-shadow: 10px 10px 95px -7px rgba(83,198,11,1);
+    box-shadow: 10px 10px 95px -7px rgba(83,198,11,1);
+}
+
+.subContainer p{
+    font-weight: 600;
+    margin-top: 1.2rem;
+}
+
+@media(max-width:900px){
+    .subContainer{
+        flex-wrap: wrap;
+    }
+}

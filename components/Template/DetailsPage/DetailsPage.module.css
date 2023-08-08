@@ -1,0 +1,142 @@
+.container{
+    max-width: 9009x;
+    margin: auto;
+    margin-top: 6rem;
+}
+.container h2{
+    border-bottom: 0.1rem solid #53c60b;
+    width: fit-content;
+    margin: 1.5rem auto;
+    font-size: 1.9rem;
+}
+.banner img{
+    width: 19rem;
+}
+.banner{
+    display: flex;
+}
+.banner div{
+    margin-left: 2rem;
+}
+.banner h3{
+    font-size: 1.3rem;
+    color: #53c60b;
+}
+.banner span{
+    display: flex;
+    align-items: center;
+}
+.location{
+    color: grey;
+    margin: 1.2rem 0 2rem;
+}
+.discount{
+    background-color: #ed4133;
+    color: #fff;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin-top: 1.2rem;
+}
+.introduction{
+    margin: 4rem 0;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.details{
+    margin-bottom: 4rem;
+}
+
+.details h4{
+    font-size: 1.5rem;
+    color: #53c60b;
+    margin: 1.3rem 0;
+}
+.details li{
+    display: flex;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+.details li::before{
+    content: '. ';
+    color: #53c60b;
+    font-weight: bold;
+}
+
+.details p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0.7rem;
+}
+.details span{
+    color: grey;
+}
+.recipe{
+    margin-bottom: 6rem;
+}
+.recipe h4{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #53c60b;
+    margin: 1.3rem 0;
+}
+.recipe div{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 0.7rem;
+    text-align: justify;
+}
+.recipe span{
+    font-size: 2rem;
+    margin: 0 1rem 0 0.4rem;
+}
+.odd{
+    background-color: #e8ffdb;
+}
+.even{
+    background-color: #bcff93;
+}
+.container button{
+    width: 100%;
+    background-color: #53c60b;
+    border: 0.09rem solid #53c60b;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-bottom: 6rem;
+}
+.container button:hover{
+    background-color: transparent;
+    color: #53c60b;
+}
+@media (max-width:900px) {
+    .container{
+        padding: 1.2rem;
+    }
+    .container button{
+        border-radius: 0.5rem;
+    }
+}
+
+@media (max-width:600px){
+    .container{
+        padding: 0.7rem;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner div{
+        margin: 0;
+    }
+    .banner img{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    .container button{
+        border-radius: 0.5rem;
+    }
+}
